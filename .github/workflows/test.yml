@@ -1,0 +1,22 @@
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Perform tests
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: npm install
+      - name: Test cd catalog XML
+        run: npm run test:cdCatalog
+      - name: Test guestbook XML
+        run: npm run test:guestbook
+      - name: Test note XML
+        run: npm run test:note
+      - name: Test plant catalog XML
+        run: npm run test:plantCatalog
+      - name: Test auction data XML
+        run: npm run test:auctionData
+      - name: Run all tests
+        run: npm run test
