@@ -1,4 +1,4 @@
-import { xmlToJson } from "../dist/index";
+import { xmlToJson } from "../src/index";
 import { auctionData } from "./xml";
 
 describe("XML to JSON of 'auctionData'", () => {
