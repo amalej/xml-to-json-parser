@@ -43,7 +43,7 @@ const out = xmlToJson(`
 console.log(JSON.stringify(out, null, 4));
 ```
 
-Output
+Output:
 
 ```json
 {
