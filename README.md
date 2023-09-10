@@ -1,4 +1,4 @@
-# XML to JSON parser
+# XML to JSON parser [![npm](https://img.shields.io/npm/v/xml-to-json-parser)](https://www.npmjs.com/package/xml-to-json-parser) [![npm](https://img.shields.io/npm/dt/xml-to-json-parser)](https://www.npmjs.com/package/xml-to-json-parser?activeTab=versions)
 
 A library to parse XML to JSON
 
