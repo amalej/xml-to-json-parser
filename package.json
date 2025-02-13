@@ -2,8 +2,8 @@
   "name": "xml-to-json-parser",
   "version": "1.0.0",
   "description": "A library to parse XML to JSON",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/amalej/xml-to-json-parser"
@@ -24,7 +24,7 @@
     "parser"
   ],
   "files": [
-    "dist"
+    "lib"
   ],
   "author": "Alejandro Marco",
   "license": "ISC",
